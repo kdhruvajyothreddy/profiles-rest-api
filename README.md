@@ -36,3 +36,8 @@ python manage.py makemigrations profiles_api
 ## To migrate all the changes in the project to set up our database
 ### Make sure to activate the virtual environment and run the below command
 python manage.py migrate
+
+## To create a superuser from command line
+### Make sure to activate the virtual environment and run the below command
+python manage.py createsuperuser
+### Fill the details like email, name and password
