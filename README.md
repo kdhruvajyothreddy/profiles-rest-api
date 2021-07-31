@@ -29,4 +29,10 @@ python manage.py startapp profiles_api
 python manage.py runserver
 ### With this you can access it on browser using "localhost:8000/"
 
-##
+## To make migrations after getting done with changes in models file
+### Make sure to activate the virtual environment and run the below command
+python manage.py makemigrations profiles_api
+
+## To migrate all the changes in the project to set up our database
+### Make sure to activate the virtual environment and run the below command
+python manage.py migrate
